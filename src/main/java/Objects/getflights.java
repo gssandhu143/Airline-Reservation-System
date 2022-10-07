@@ -18,6 +18,16 @@ public class getflights {
         private String flightnumber;
         private int flightid;
 	
+	public getflights(){
+		provider = null;
+		source = null;
+		destination = null;
+		duration = null;
+		price = 0;
+		flightnumber = null;
+		flightid = 0;
+	}
+	
 	public String getprovider() {
 		return provider;
 	}
